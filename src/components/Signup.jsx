@@ -20,7 +20,8 @@ const Signup = () => {
 
       if (response.ok) {
         // Handle successful signup
-        console.log('Signup successful');
+        alert('Signup successful');
+       
       } else {
         // Handle error in signup
         console.error('Signup failed');
