@@ -30,9 +30,6 @@ function Upload() {
         try {
             const response = await fetch('https://image2text-server.vercel.app/upload', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                  },
                 body: formData
             });
 
