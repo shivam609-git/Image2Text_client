@@ -28,7 +28,7 @@ function Upload() {
         //console.log(selectedFile);
 //http://localhost:5000
         try {
-            const response = await fetch('https://image2text-server.vercel.app/upload', {
+            const response = await fetch('https://server-2-wyo8.onrender.com/upload', {
                 method: 'POST',
                 body: formData
             });
